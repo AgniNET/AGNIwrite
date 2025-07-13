@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AGNIwrite</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>AGNIwrite ✍️</h1>
+  <p>Write. Share. Inspire.</p>
+
+  <form id="uploadForm">
+    <input type="text" name="title" placeholder="Title" required><br>
+    
+    <select name="category" required>
+      <option value="">Select Category</option>
+      <option value="poem">Poem</option>
+      <option value="story">Story</option>
+      <option value="joke">Joke</option>
+      <option value="education">Education</option>
+    </select><br>
+
+    <textarea name="content" placeholder="Your content here..." rows="10" required></textarea><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
